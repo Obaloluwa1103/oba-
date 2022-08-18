@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    background-color: rgba(151, 163, 159, 0.904);
+    justify-content: flex-start;
+    height: 150vh;
+    align-items:flex-start;
+}
+.images{
+    border: none;
+    margin-right: 20px;
+}
+.images.background image{
+    position: relative;
+    height: 120vh;
+    width:700px;
+}
+.txf{
+    margin-top: 3vh;
+    margin-left: 10px;
+    border: 1px solid;
+    border-color: rgb(212, 207, 218);
+    background-color: rgb(225, 235, 231);
+    border-radius: 5px;
+    padding: 5px;
+    max-width:600px;
+}
+.text-1{
+    font-size:16px;
+    font-weight: 300;
+    font-style: oblique;
+    margin-top: 10vh;
+    margin-left: 10px;
+    max-width: 600px;
+}
+.text-2{
+    font-size:16px;
+    font-weight: 350;
+    font-style: oblique;
+    margin-left: 10px;
+   
+}
+.text-3{
+    font-size:20px;
+    font-weight: 450;
+    font-style: normal;
+}
+.text-4{
+    font-size:16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.details{
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.info input{
+    font-size:16px ;
+    display: block;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+    border-bottom-width: 2px;
+    height: 40px;
+    width: 100%;
+}
+.info input:focus,
+.info input:valid{
+    border-color: rgb(202, 199, 211);
+}
+.button{
+    padding: 10px 0;
+    background-position: px;
+    margin-top: 10px;
+    height: 23%;
+    width: 60%;
+    outline: none;
+    color: rgb(32, 151, 77);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+ }
+ .button input{
+    font-style: normal;
+    background-color:green;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding:10px;
+    border: 1px solid;
+    border-radius:5px ;
+    color: azure;
+    width: 50%;
+ }
+
+.button input:hover{
+    background-color: rgb(91, 121, 47);
+}
+
+
+
+
+
+
+
+
+@media (max-width:584px) {
+    
+    }
+    
